@@ -1,0 +1,35 @@
+.upperclass {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tic-tac-toe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+
+}
+
+.square {
+  border: 1px solid red;
+  /* background-color: aquamarine; */
+  float: left;
+
+  font-size: 40px;
+  height: 100px;
+  width: 100px;
+  padding: 0;
+  text-align: center;
+  margin-right: -1px;
+  margin-top: -1px;
+  cursor: pointer;
+}
